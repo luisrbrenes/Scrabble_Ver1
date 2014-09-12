@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  *Hola Steven
+ *ijfijfoijgoijgoijgt
  */
 
 package scrabblever1;
@@ -44,7 +45,7 @@ public class PrincipalGui extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(254, 254, 254));
         jLabel1.setFont(new java.awt.Font("Lucida Sans Typewriter", 3, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(58, 58, 254));
-        jLabel1.setText("SCRABBE");
+        jLabel1.setText("SCRABBLE");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(100, 40, 180, 50);
 
