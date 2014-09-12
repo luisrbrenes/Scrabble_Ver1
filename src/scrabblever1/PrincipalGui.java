@@ -34,7 +34,6 @@ public class PrincipalGui extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(400, 300));
         setMinimumSize(new java.awt.Dimension(400, 300));
 
         jPanel1.setMaximumSize(new java.awt.Dimension(400, 300));
@@ -44,7 +43,7 @@ public class PrincipalGui extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(254, 254, 254));
         jLabel1.setFont(new java.awt.Font("Lucida Sans Typewriter", 3, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(58, 58, 254));
-        jLabel1.setText("SCRABBLE");
+        jLabel1.setText("SCRABBE");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(100, 40, 180, 50);
 
