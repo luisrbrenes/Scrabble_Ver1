@@ -35,7 +35,7 @@ public class Tablero_Scrabble extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("/home/stiven/NetBeansProjects/ScrabbleVer1/src/scrabblever1/tablero_scrabble.gif")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/scrabblever1/tablero_scrabble.gif"))); // NOI18N
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0, 600, 690);

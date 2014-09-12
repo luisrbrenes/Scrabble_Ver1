@@ -42,7 +42,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/home/stiven/NetBeansProjects/ScrabbleVer1/src/scrabblever1/tablero_scrabble.gif"/>
+              <Image iconType="3" name="/scrabblever1/tablero_scrabble.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel1"/>
           </Properties>
