@@ -1,11 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package scrabblever1;
-
+import java.awt.Label;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 /**
  *
  * @author stiven
@@ -17,6 +14,7 @@ public class Tablero_Scrabble extends javax.swing.JFrame {
      */
     public Tablero_Scrabble() {
         initComponents();
+        
     }
 
     /**
@@ -85,6 +83,9 @@ public class Tablero_Scrabble extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Tablero_Scrabble().setVisible(true);
+                
+               
+                
             }
         });
     }
@@ -93,4 +94,7 @@ public class Tablero_Scrabble extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+
+   
+    
 }
