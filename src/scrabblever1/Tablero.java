@@ -10,7 +10,8 @@ public class Tablero {
     public void creaFichas(){
         ListaDoble fichas = new ListaDoble();
         Ficha fic=new Ficha();
-        fic.setLetra("Z");
+        fic.setLetra("l");
+        fichas.insertarAlFinal(fic);
         for (int i=1;i<=2;i++){
             Ficha comodin = new Ficha();
             comodin.setComodines(Ficha.COMODIN.ES_COMODIN);
@@ -79,8 +80,8 @@ public class Tablero {
         System.out.println(ficha.getLetra()+"\t");
       
         }
-        fichas.InsertarElePosicion(fic,6);
-        System.out.println(fichas.buscar(fic.getLetra()));
+        //fichas.InsertarElePosicion(fic,6);
+        //System.out.println(fichas.buscar(fic.getLetra()));
         //System.out.println(fichas.buscar("Z"));
         //for(int i = 0; i<fichas.size;i++){//para desordenar las fichas. 
             

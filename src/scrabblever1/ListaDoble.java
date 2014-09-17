@@ -141,7 +141,7 @@ public class ListaDoble {
         }
         return contador;
     } 
-    public void InsertarElePosicion(Object datos,int posicion){         
+    public void InsertarElePosicion(Object datos,int posicion){ //hay que arreglarlo.        
         if (posicion <= cantidadElementos()+1){
            if (posicion==1){//si la posicion es al inicio.
                insertarAlFrente(datos);
@@ -154,7 +154,14 @@ public class ListaDoble {
                     primerNodo=primerNodo.getSiguienteNodo();
                Nodo nuevo=primerNodo.getSiguienteNodo();
                primerNodo=nuevo.getAnteriorNodo();
-               ultimoNodo=nuevo.getSiguienteNodo();
+               nuevo=nuevo.getSiguienteNodo();
+               primerNodo=nuevo.getAnteriorNodo();
+              // ultimoNodo=nuevo.getSiguienteNodo();
+              /* Nodo siguiente = re.sig;
+                    primerNodo.getSiguienteNodo() = siguiente;
+                    nuevo.ant=primerNodo;
+                    nuevo.sig = siguiente;
+                    siguiente.ant=nuevo;*/
            }
        } 
        else
@@ -174,5 +181,6 @@ public class ListaDoble {
      
      /*falta una funcion para eliminar un elemento de cierta posicion,
      arreglar el de insertar en cierta posicion.*/
+     
 }  
 
